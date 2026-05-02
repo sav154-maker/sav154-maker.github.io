@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISC Study Sanctuary</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="min-h-screen flex flex-col bg-[#F9F7F2]">
+
+    <nav class="fixed top-0 w-full z-50 py-4 px-6 md:px-12 bg-white/80 backdrop-blur-md border-b border-[#D1C9B8]/20">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <div class="flex items-center gap-4">
+                <div class="text-[10px] uppercase tracking-widest font-medium opacity-60">ISC Mastery</div>
+                <div class="w-32 md:w-64 h-1 bg-[#D1C9B8]/30 rounded-full overflow-hidden">
+                    <div id="progress-bar" class="h-full bg-[#7A857E]" style="width: 0%"></div>
+                </div>
+            </div>
+            <div class="flex items-center gap-6">
+                <div class="flex items-center gap-2">
+                    <span class="text-sm">🔥</span>
+                    <span id="streak-count" class="text-sm font-medium">0</span>
+                </div>
+                <div id="user-level" class="hidden md:block text-[9px] uppercase tracking-[0.2em] px-3 py-1 border border-[#2D2D2D] rounded-full">Junior Auditor</div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="flex-grow flex items-center justify-center px-6 pt-32 pb-12">
+        <div id="quiz-container" class="w-full max-w-2xl">
+            <div id="question-card" class="bg-white rounded-2xl p-8 md:p-12 border border-[#D1C9B8]/30 shadow-sm">
+                <div class="flex justify-between items-start mb-8">
+                    <div id="category-tag" class="text-[10px] uppercase tracking-widest text-[#7A857E] font-bold"></div>
+                    <div id="skill-tag" class="text-[9px] uppercase tracking-tighter px-2 py-0.5 bg-[#D1C9B8]/20 rounded"></div>
+                </div>
+                <h2 id="question-text" class="text-xl md:text-2xl font-light leading-relaxed mb-10 text-[#2D2D2D]">Loading ISC Questions...</h2>
+                <div id="options-container" class="space-y-3"></div>
+                <div id="explanation-container" class="mt-10 pt-8 border-t border-[#D1C9B8]/30 hidden">
+                    <p id="feedback-heading" class="text-xs uppercase font-bold tracking-widest mb-2"></p>
+                    <p id="explanation-text" class="text-sm leading-relaxed text-[#545954] mb-6"></p>
+                    <button id="next-btn" class="w-full py-4 bg-[#2D2D2D] text-white text-[10px] uppercase tracking-[0.3em]">Continue Journey</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="py-8 px-12 text-center">
+        <a href="../index.html" class="text-[10px] uppercase tracking-widest text-[#7A857E] hover:text-[#2D2D2D]">← Return to Portfolio</a>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

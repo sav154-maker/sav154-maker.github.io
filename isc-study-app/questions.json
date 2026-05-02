@@ -1,0 +1,202 @@
+[
+  {
+    "id": "ISC-001",
+    "category": "IT Governance",
+    "icon": "⚖️",
+    "skillLevel": "Understanding",
+    "question": "Which of the following is the primary purpose of a COBIT framework in an organization?",
+    "options": [
+      "To provide a technical manual for coding secure software",
+      "To provide a comprehensive framework for IT governance and management",
+      "To replace the need for a Board of Directors",
+      "To automate the filing of tax returns"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Plain English: Think of COBIT as the 'rulebook' that helps leadership ensure technology is helping the business reach its goals.",
+    "distractorExplanations": {
+      "0": "This describes a secure coding standard like OWASP.",
+      "2": "Governance supports the Board; it never replaces oversight.",
+      "3": "COBIT is high-level governance, not a specific tax automation tool."
+    }
+  },
+  {
+    "id": "ISC-002",
+    "category": "Security & Privacy",
+    "icon": "🔒",
+    "skillLevel": "Application",
+    "question": "A small business client wants to ensure that even if a laptop is stolen, the data cannot be accessed. Which control should be implemented?",
+    "options": [
+      "Complex Login Passwords",
+      "Full Disk Encryption (FDE)",
+      "Screen Privacy Filters",
+      "Biometric Thumbprint Scanners"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Plain English: Encryption 'scrambles' the actual data so it’s unreadable without the key, even if the drive is removed.",
+    "distractorExplanations": {
+      "0": "Passwords protect the software, but thieves can pull data from hardware.",
+      "2": "Privacy filters only prevent 'shoulder surfing' while the laptop is in use.",
+      "3": "Biometrics protect access but don't protect the raw data on the drive."
+    }
+  },
+  {
+    "id": "ISC-003",
+    "category": "SOC Engagements",
+    "icon": "📄",
+    "skillLevel": "Analysis",
+    "question": "An auditor is reviewing a SOC 2 Type 2 report. What is the primary difference between this and a Type 1 report?",
+    "options": [
+      "Type 2 is only for internal company use.",
+      "Type 2 tests the operating effectiveness of controls over a period of time.",
+      "Type 2 is cheaper and faster to produce.",
+      "Type 2 only looks at financial statement accuracy."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Plain English: Type 1 is a 'snapshot' (Is the door locked now?). Type 2 is a 'video' (Was it kept locked all summer?).",
+    "distractorExplanations": {
+      "0": "Both reports are typically intended for user entities and their auditors.",
+      "2": "Actually, Type 2 is more expensive because it requires testing over time.",
+      "3": "Financial statement accuracy is the focus of SOC 1."
+    }
+  },
+  {
+    "id": "ISC-004",
+    "category": "Data Management",
+    "icon": "📊",
+    "skillLevel": "Application",
+    "question": "Which data validation check would prevent an employee from entering '35' in an age field that has a maximum limit of '120'?",
+    "options": [
+      "Field Check",
+      "Limit Check",
+      "Range Check",
+      "Check Digit"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Plain English: A Range Check looks at both the floor and the ceiling (e.g., 0 to 120) to ensure the number makes sense.",
+    "distractorExplanations": {
+      "0": "A field check ensures the data type is correct (numbers vs letters).",
+      "1": "A limit check usually only tests one end (e.g., 'not more than 120').",
+      "3": "A check digit is used for account numbers, not data logic."
+    }
+  },
+  {
+    "id": "ISC-005",
+    "category": "Security & Privacy",
+    "icon": "🛡️",
+    "skillLevel": "Understanding",
+    "question": "In the context of the CIA Triad, which principle is violated if a hacker performs a Denial of Service (DoS) attack?",
+    "options": [
+      "Confidentiality",
+      "Integrity",
+      "Availability",
+      "Accountability"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Plain English: If the system is down and users can't get in, the service is no longer 'Available.'",
+    "distractorExplanations": {
+      "0": "Confidentiality is about data theft.",
+      "1": "Integrity is about unauthorized data changes.",
+      "3": "Accountability isn't one of the three core CIA pillars."
+    }
+  },
+  {
+    "id": "ISC-006",
+    "category": "IT Governance",
+    "icon": "💼",
+    "skillLevel": "Analysis",
+    "question": "Which role is primarily responsible for the strategic alignment of IT with business goals?",
+    "options": [
+      "Database Administrator",
+      "Chief Information Officer (CIO)",
+      "Systems Programmer",
+      "External Auditor"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Plain English: The CIO acts as the bridge between technical teams and business leadership.",
+    "distractorExplanations": {
+      "0": "A DBA manages the health of databases, not business strategy.",
+      "2": "A programmer focuses on technical code maintenance.",
+      "3": "An auditor reviews work but does not set the strategy."
+    }
+  },
+  {
+    "id": "ISC-007",
+    "category": "Data Management",
+    "icon": "☁️",
+    "skillLevel": "Application",
+    "question": "A company uses a cloud provider for its accounting software. Who is ultimately responsible for the security of the data?",
+    "options": [
+      "The Cloud Provider",
+      "The Software Developer",
+      "The User Entity (The Company)",
+      "The Internet Service Provider"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Plain English: You can outsource the work, but you can never outsource the ultimate responsibility for your own data.",
+    "distractorExplanations": {
+      "0": "The provider is responsible for the cloud's infrastructure, but not your specific data.",
+      "1": "Developers create tools but don't own the data inside them.",
+      "3": "The ISP is just the 'highway' for the data."
+    }
+  },
+  {
+    "id": "ISC-008",
+    "category": "SOC Engagements",
+    "icon": "🔍",
+    "skillLevel": "Understanding",
+    "question": "Which Trust Services Criteria (TSC) is mandatory for every SOC 2 report?",
+    "options": [
+      "Confidentiality",
+      "Privacy",
+      "Security",
+      "Processing Integrity"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Plain English: Security (Common Criteria) is the anchor. You cannot have a SOC 2 without it.",
+    "distractorExplanations": {
+      "0": "Confidentiality is optional based on the service nature.",
+      "1": "Privacy is optional if the entity doesn't handle PII.",
+      "3": "Processing Integrity is optional for most service providers."
+    }
+  },
+  {
+    "id": "ISC-009",
+    "category": "Security & Privacy",
+    "icon": "🔑",
+    "skillLevel": "Application",
+    "question": "Which of the following is an example of 'something you have' in Multi-Factor Authentication (MFA)?",
+    "options": [
+      "A Password",
+      "A Fingerprint",
+      "A Hardware Token",
+      "A Mother's Maiden Name"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Plain English: It's a physical object in your hand, like a key or a phone receiving a code.",
+    "distractorExplanations": {
+      "0": "A password is 'something you know.'",
+      "1": "A fingerprint is 'something you are.'",
+      "3": "Security questions are 'something you know.'"
+    }
+  },
+  {
+    "id": "ISC-010",
+    "category": "Data Management",
+    "icon": "📉",
+    "skillLevel": "Analysis",
+    "question": "What is the primary risk of using Spreadsheet software as a primary financial database?",
+    "options": [
+      "Lack of row-level security and integrity controls",
+      "The software is too expensive",
+      "Spreadsheets cannot perform math",
+      "The color schemes are too limited"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Plain English: Spreadsheets are easy to break. One wrong click can delete a formula without anyone noticing.",
+    "distractorExplanations": {
+      "1": "Spreadsheet software is cheap compared to database systems.",
+      "2": "Spreadsheets are built specifically for math.",
+      "3": "Formatting is not a security or integrity risk."
+    }
+  }
+]
