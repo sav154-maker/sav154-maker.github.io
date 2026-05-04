@@ -1,0 +1,108 @@
+/* Color Logic Variables */
+:root {
+    --bg-app: #F5F3F0;
+    --card-bg: rgba(255, 255, 255, 0.4);
+    --primary: #2D2D2D;
+    --sage-accent: #7A857E;
+    --correct-green: #8B948E;
+    --incorrect-red: #A67B7B;
+    --border-soft: rgba(182, 169, 155, 0.3);
+}
+
+/* Base Refinements */
+body {
+    background-image: 
+        radial-gradient(at 0% 0%, rgba(209, 201, 184, 0.15) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(139, 148, 142, 0.1) 0px, transparent 50%);
+    background-attachment: fixed;
+}
+
+/* Glassmorphism Evolution */
+.glass-card {
+    border-radius: 24px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05);
+    transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Option Buttons Custom Styling */
+.option-btn {
+    width: 100%;
+    text-align: left;
+    padding: 1.25rem 1.5rem;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    line-height: 1.5;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* Interactive Feedback States */
+.option-btn.correct {
+    background-color: var(--correct-green) !important;
+    color: white !important;
+    border-color: var(--correct-green);
+    font-weight: 500;
+}
+
+.option-btn.incorrect {
+    background-color: var(--incorrect-red) !important;
+    color: white !important;
+    border-color: var(--incorrect-red);
+}
+
+/* Disabled state after selection */
+.option-btn:disabled {
+    cursor: default;
+    opacity: 0.7;
+}
+
+.option-btn:disabled:not(.correct):not(.incorrect) {
+    background: rgba(209, 201, 184, 0.1);
+}
+
+/* Explanations Styling */
+#explanation-container {
+    animation: slideUp 0.5s ease-out forwards;
+}
+
+@keyframes slideUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Gamification: Floating Icons */
+.streak-pop {
+    animation: pop 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+@keyframes pop {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.4); }
+    100% { transform: scale(1); }
+}
+
+/* Custom Scrollbar for the long explanations */
+#explanation-text::-webkit-scrollbar {
+    width: 4px;
+}
+#explanation-text::-webkit-scrollbar-thumb {
+    background: var(--shape-color);
+    border-radius: 10px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .glass-card {
+        padding: 1.5rem;
+        margin: 1rem;
+    }
+    
+    h2 {
+        font-size: 1.25rem;
+    }
+}

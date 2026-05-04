@@ -1,0 +1,212 @@
+[
+  {
+    "id": "ISC-001",
+    "category": "IT Governance",
+    "icon": "⚖️",
+    "skillLevel": "Understanding",
+    "question": "Which of the following is the primary purpose of a COBIT framework in an organization?",
+    "options": [
+      "To provide a technical manual for coding secure software",
+      "To provide a comprehensive framework for IT governance and management",
+      "To replace the need for a Board of Directors",
+      "To automate the filing of tax returns"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Plain English: Think of COBIT as the 'rulebook' that helps leadership ensure their technology is actually helping the business reach its goals.",
+    "distractorExplanations": {
+      "0": "This describes a secure coding standard (like OWASP), not a governance framework.",
+      "2": "Governance supports the Board; it never replaces the ultimate oversight body of a company.",
+      "3": "While IT can help with taxes, COBIT is a high-level framework, not a specific tax automation tool."
+    },
+    "reference": "AICPA Area I"
+  },
+  {
+    "id": "ISC-002",
+    "category": "Security & Privacy",
+    "icon": "🔒",
+    "skillLevel": "Application",
+    "question": "A small business client wants to ensure that even if a laptop is stolen, the data cannot be accessed. Which control should be implemented?",
+    "options": [
+      "Complex Login Passwords",
+      "Full Disk Encryption (FDE)",
+      "Screen Privacy Filters",
+      "Biometric Thumbprint Scanners"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Plain English: Passwords can be bypassed if the hard drive is removed. Encryption 'scrambles' the actual data so it’s unreadable without the key.",
+    "distractorExplanations": {
+      "0": "Passwords only protect the software layer; a thief can still pull data directly from the hardware.",
+      "2": "Privacy filters only prevent 'shoulder surfing' while the laptop is in use.",
+      "3": "Like passwords, biometrics protect access to the OS but don't protect the raw data on the drive."
+    },
+    "reference": "AICPA Area II"
+  },
+  {
+    "id": "ISC-003",
+    "category": "SOC Engagements",
+    "icon": "📄",
+    "skillLevel": "Analysis",
+    "question": "An auditor is reviewing a SOC 2 Type 2 report. What is the primary difference between this and a Type 1 report?",
+    "options": [
+      "Type 2 is only for internal company use.",
+      "Type 2 tests the operating effectiveness of controls over a period of time.",
+      "Type 2 is cheaper and faster to produce.",
+      "Type 2 only looks at financial statement accuracy."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Plain English: Type 1 is a 'snapshot' (Is the door locked right now?). Type 2 is a 'video' (Was the door kept locked all summer?).",
+    "distractorExplanations": {
+      "0": "Both reports are typically intended for the service organization and its user entities/auditors.",
+      "2": "Actually, Type 2 is more expensive and time-consuming because it requires testing over a period (usually 6-12 months).",
+      "3": "Financial statement accuracy is the focus of SOC 1, not SOC 2."
+    },
+    "reference": "AICPA Area IV"
+  },
+  {
+    "id": "ISC-004",
+    "category": "Data Management",
+    "icon": "📊",
+    "skillLevel": "Application",
+    "question": "Which data validation check would prevent an employee from entering '35' in an age field that has a maximum limit of '120'?",
+    "options": [
+      "Field Check",
+      "Limit Check",
+      "Range Check",
+      "Check Digit"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Plain English: A Range Check looks at both the floor and the ceiling (e.g., 0 to 120) to make sure the number makes sense.",
+    "distractorExplanations": {
+      "0": "A field check only ensures the data is the right type (e.g., numbers instead of letters).",
+      "1": "A limit check usually only tests one end (e.g., 'not more than 120'), whereas a range check is more comprehensive for this context.",
+      "3": "A check digit is used to verify account numbers or IDs via a mathematical formula, not for testing data logic."
+    },
+    "reference": "AICPA Area I"
+  },
+  {
+    "id": "ISC-005",
+    "category": "Security & Privacy",
+    "icon": "🛡️",
+    "skillLevel": "Understanding",
+    "question": "In the context of the CIA Triad, which principle is violated if a hacker performs a Denial of Service (DoS) attack?",
+    "options": [
+      "Confidentiality",
+      "Integrity",
+      "Availability",
+      "Accountability"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Plain English: If the system is down and users can't get in, the service is no longer 'Available.'",
+    "distractorExplanations": {
+      "0": "Confidentiality is about data theft; DoS is about system blockage.",
+      "1": "Integrity is about unauthorized data changes; DoS doesn't necessarily change data, it just hides it.",
+      "3": "Accountability isn't one of the three core 'CIA' pillars (though it is a related security concept)."
+    },
+    "reference": "AICPA Area II"
+  },
+  {
+    "id": "ISC-006",
+    "category": "IT Governance",
+    "icon": "💼",
+    "skillLevel": "Analysis",
+    "question": "Which of the following roles is primarily responsible for the strategic alignment of IT with business goals?",
+    "options": [
+      "Database Administrator",
+      "Chief Information Officer (CIO)",
+      "Systems Programmer",
+      "External Auditor"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Plain English: The CIO is the bridge between the 'techies' and the 'executives.'",
+    "distractorExplanations": {
+      "0": "A DBA manages the technical health of databases, not high-level business strategy.",
+      "2": "A programmer focuses on writing code and maintaining operating systems at a technical level.",
+      "3": "An auditor reviews the work after the fact; they don't set the strategy."
+    },
+    "reference": "AICPA Area I"
+  },
+  {
+    "id": "ISC-007",
+    "category": "Data Management",
+    "icon": "☁️",
+    "skillLevel": "Application",
+    "question": "A company uses a cloud provider for its accounting software. Who is ultimately responsible for the security of the data stored in the cloud?",
+    "options": [
+      "The Cloud Provider",
+      "The Software Developer",
+      "The User Entity (The Company)",
+      "The Internet Service Provider"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Plain English: You can outsource the 'work,' but you can never outsource the 'responsibility' for your own data.",
+    "distractorExplanations": {
+      "0": "The provider is responsible for 'security OF the cloud,' but you are responsible for 'security IN the cloud.'",
+      "1": "Developers create the tools, but they don't own the data you put inside them.",
+      "3": "The ISP is just the 'highway' for the data; they aren't responsible for the cargo."
+    },
+    "reference": "AICPA Area I"
+  },
+  {
+    "id": "ISC-008",
+    "category": "SOC Engagements",
+    "icon": "🔍",
+    "skillLevel": "Understanding",
+    "question": "Which Trust Services Criteria (TSC) is mandatory for every SOC 2 report?",
+    "options": [
+      "Confidentiality",
+      "Privacy",
+      "Security",
+      "Processing Integrity"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Plain English: Security (Common Criteria) is the 'anchor.' You can't have a SOC 2 without it.",
+    "distractorExplanations": {
+      "0": "Confidentiality is optional based on the nature of the service provided.",
+      "1": "Privacy is also an optional criteria, often left out if the entity doesn't handle PII.",
+      "3": "Processing Integrity is optional and usually reserved for data centers or payroll processors."
+    },
+    "reference": "AICPA Area IV"
+  },
+  {
+    "id": "ISC-009",
+    "category": "Security & Privacy",
+    "icon": "🔑",
+    "skillLevel": "Application",
+    "question": "Which of the following is an example of 'something you have' in Multi-Factor Authentication (MFA)?",
+    "options": [
+      "A Password",
+      "A Fingerprint",
+      "A Hardware Token",
+      "A Mother's Maiden Name"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Plain English: It's a physical object in your hand, like a key or a phone receiving a code.",
+    "distractorExplanations": {
+      "0": "A password is 'something you know.'",
+      "1": "A fingerprint is 'something you are' (biometrics).",
+      "3": "Personal security questions are 'something you know.'"
+    },
+    "reference": "AICPA Area II"
+  },
+  {
+    "id": "ISC-010",
+    "category": "Data Management",
+    "icon": "📉",
+    "skillLevel": "Analysis",
+    "question": "What is the primary risk of using 'Spreadsheet' software as a primary financial database for a large corporation?",
+    "options": [
+      "Lack of row-level security and data integrity controls",
+      "The software is too expensive",
+      "Spreadsheets cannot perform math",
+      "The color schemes are too limited"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Plain English: Spreadsheets are easy to break. One wrong click can delete a formula without anyone noticing; real databases have 'guards' to prevent that.",
+    "distractorExplanations": {
+      "1": "Spreadsheet software is actually very cheap compared to enterprise database systems.",
+      "2": "Spreadsheets are famous for performing math; that is their main function.",
+      "3": "Modern spreadsheet software has virtually unlimited color and formatting options."
+    },
+    "reference": "AICPA Area I"
+  }
+]

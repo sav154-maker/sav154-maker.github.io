@@ -1,0 +1,29 @@
+/* --- Custom Brand Styles --- */
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #2D2D2D;
+    -webkit-font-smoothing: antialiased;
+    background-color: #F9F7F2; /* Soft linen background */
+}
+
+/* Glassmorphism Effect for the Question Card */
+#question-card {
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+}
+
+/* Custom button hover animation */
+.option-btn {
+    transition: all 0.2s ease;
+}
+
+.option-btn:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+/* Smooth Progress Bar Transition */
+#progress-bar {
+    transition: width 0.6s ease-in-out;
+}

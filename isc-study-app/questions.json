@@ -1,0 +1,302 @@
+[
+  {
+    "id": "DIAG-001",
+    "category": "Legal Protection",
+    "icon": "🛡️",
+    "skillLevel": "Critical",
+    "question": "You use your business debit card to pay for personal groceries and Netflix. Why is this a major legal risk?",
+    "options": [
+      "It is not a risk as long as you pay it back",
+      "It can allow a court to take your personal assets to pay business debts",
+      "The bank will automatically close your account",
+      "It only matters if you have employees"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Professional Insight: This is known as 'Piercing the Corporate Veil.' Maintaining strict separation (Entity Separation) between personal and business funds is the only way to preserve the liability protection of an LLC.",
+    "distractorExplanations": {
+      "0": "Repayment doesn't fix the legal 'blurring' of the separate entities.",
+      "2": "While banks dislike this, the real danger is losing your legal shield in court.",
+      "3": "Liability protection is vital for all owners, regardless of team size."
+    }
+  },
+  {
+    "id": "DIAG-002",
+    "category": "Tax Deductions",
+    "icon": "🚗",
+    "skillLevel": "Operational",
+    "question": "You drive your personal car for business trips 30% of the time. What is required to safely claim this deduction?",
+    "options": [
+      "A rough estimate at the end of the year",
+      "Saving every gas receipt you receive",
+      "A written log of every business trip, including dates and miles",
+      "A photo of your car's odometer on Jan 1st"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Professional Insight: Proper Substantiation is required. Without a contemporaneous mileage log, the IRS can disqualify the deduction entirely during an audit.",
+    "distractorExplanations": {
+      "0": "Estimates are the most common reason deductions are rejected in audits.",
+      "1": "Gas receipts prove spending, but not the business-use percentage.",
+      "3": "This shows total usage, but doesn't isolate the business portion."
+    }
+  },
+  {
+    "id": "DIAG-003",
+    "category": "Cash Flow",
+    "icon": "📈",
+    "skillLevel": "Analysis",
+    "question": "Your report shows a $5,000 profit this month, but your bank account is empty. What is the most likely reason?",
+    "options": [
+      "The math in the report is incorrect",
+      "You have customers who haven't paid their invoices yet",
+      "You didn't sell enough products",
+      "Your bank is withholding the funds"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Professional Insight: This highlights the difference between Accrual Basis (income earned) and Cash Basis (money received). It is a classic 'Timing Difference' in accounting.",
+    "distractorExplanations": {
+      "0": "Usually, the math is fine; it's the timing of the cash that is the issue.",
+      "2": "The profit proves you sold the products; you just haven't collected the payment.",
+      "3": "Banks rarely hold funds; the delay is usually on the customer's end."
+    }
+  },
+  {
+    "id": "DIAG-004",
+    "category": "Hiring",
+    "icon": "👥",
+    "skillLevel": "Legal",
+    "question": "You hire a designer who uses their own laptop, sets their own hours, and works from home. Are they an employee?",
+    "options": [
+      "Yes, because you are paying them for work",
+      "No, they are likely an Independent Contractor (1099)",
+      "Yes, if they work for you more than 3 months",
+      "No, only if they have their own office"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Professional Insight: The IRS uses a 'Control Test.' If the business doesn't control the 'how, when, and where' of the work, they are categorized as a contractor.",
+    "distractorExplanations": {
+      "0": "Payment doesn't define the relationship; behavioral control does.",
+      "2": "Duration of the project does not override the lack of operational control.",
+      "3": "Location is a factor, but not the deciding legal requirement."
+    }
+  },
+  {
+    "id": "DIAG-005",
+    "category": "Pricing Strategy",
+    "icon": "🏷️",
+    "skillLevel": "Financial",
+    "question": "To achieve a true 50% Profit Margin on a product that costs $100 to produce, what should you charge?",
+    "options": [
+      "$150.00",
+      "$200.00",
+      "$125.00",
+      "$300.00"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Professional Insight: Many confuse 'Markup' with 'Margin.' A 50% margin means half of the total sale is profit. At $200, $100 covers cost and $100 is yours.",
+    "distractorExplanations": {
+      "0": "This is a 50% markup, but only a 33% profit margin.",
+      "2": "This is an unsustainable margin for most retail or service businesses.",
+      "3": "This would result in a very high 66% margin."
+    }
+  },
+  {
+    "id": "DIAG-006",
+    "category": "Documentation",
+    "icon": "📄",
+    "skillLevel": "Critical",
+    "question": "Your bank statement shows a $2,000 charge for a computer, but you lost the receipt. Is this enough for the IRS?",
+    "options": [
+      "Yes, the bank statement is legal proof of payment",
+      "No, the statement only proves the amount, not what was bought",
+      "Yes, if the charge is under $2,500",
+      "No, unless the bank statement is signed by a notary"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Professional Insight: Auditors require Source Documentation. A bank statement proves money left the account, but it doesn't prove the Business Purpose.",
+    "distractorExplanations": {
+      "0": "Proof of payment is secondary to proof of itemized eligibility.",
+      "2": "The $2,500 threshold applies to asset capitalization, not receipt requirements.",
+      "3": "Notarization does not replace an itemized merchant receipt."
+    }
+  },
+  {
+    "id": "DIAG-007",
+    "category": "Owner's Pay",
+    "icon": "🏠",
+    "skillLevel": "Operational",
+    "question": "You take $2,000 out of your business to pay your personal rent. How does this affect your business profit?",
+    "options": [
+      "It reduces your profit by $2,000",
+      "It doesn't affect profit; it is a transfer of your own money",
+      "It increases your tax deduction for the month",
+      "It is considered a 'salary' expense"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Professional Insight: This is an Owner’s Draw. It reduces your Equity (Balance Sheet) but does not reduce your Net Income (Income Statement).",
+    "distractorExplanations": {
+      "0": "Personal expenses are not business deductions and do not lower taxable profit.",
+      "2": "It has no tax-lowering effect for a Single-Member LLC.",
+      "3": "Salary is for W-2 staff; LLC owners take draws from profit instead."
+    }
+  },
+  {
+    "id": "DIAG-008",
+    "category": "Tax Liability",
+    "icon": "🏦",
+    "skillLevel": "Critical",
+    "question": "You've collected $1,000 in sales tax from customers. Can you use that money to pay your business rent this month?",
+    "options": [
+      "Yes, as long as you pay it back next month",
+      "No, that money belongs to the state; you are holding it in trust",
+      "Yes, it is considered part of your gross revenue",
+      "No, unless your rent is also tax-exempt"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Professional Insight: Sales tax is a Fiduciary Liability. You are acting as a custodian for the state; using it for operations is a high-risk compliance failure.",
+    "distractorExplanations": {
+      "0": "Treating trust funds as a personal loan carries heavy legal penalties.",
+      "2": "Sales tax should be recorded as a liability, never as revenue.",
+      "3": "The tax status of your rent has no bearing on your duty to remit sales tax."
+    }
+  },
+  {
+    "id": "DIAG-009",
+    "category": "Reserves",
+    "icon": "💰",
+    "skillLevel": "Strategic",
+    "question": "You anticipate a $6,000 equipment cost in one year. What is the most stable way to manage this?",
+    "options": [
+      "Wait and buy it on a credit card when the time comes",
+      "Establish a 'Sinking Fund' by saving $500 every month",
+      "Hope for a high-sales month right before you need it",
+      "Apply for a bank loan only when the equipment breaks"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Professional Insight: A Sinking Fund turns a large future Capital Expenditure into a manageable monthly operating cost, preserving your liquidity.",
+    "distractorExplanations": {
+      "0": "Credit cards carry high interest that reduces your overall ROI.",
+      "2": "Hoping is not a sustainable financial control strategy.",
+      "3": "Loans involve interest costs and time delays that self-funding avoids."
+    }
+  },
+  {
+    "id": "DIAG-010",
+    "category": "Partnerships",
+    "icon": "🤝",
+    "skillLevel": "Legal",
+    "question": "You and a friend are starting a 50/50 business. What is the most important document to sign before you start?",
+    "options": [
+      "A shared bank account application",
+      "An Operating Agreement",
+      "A joint tax return",
+      "A handshake and a verbal agreement"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Professional Insight: An Operating Agreement defines the 'rules of engagement' for Capital Contributions and profit splits, preventing costly legal disputes.",
+    "distractorExplanations": {
+      "0": "A bank account is an asset, but the agreement defines who owns the asset.",
+      "2": "Joint tax returns are for married couples, not business partners.",
+      "3": "Verbal agreements are notoriously difficult to enforce in a court of law."
+    }
+  },
+  {
+    "id": "DIAG-011",
+    "category": "Continuity",
+    "icon": "☁️",
+    "skillLevel": "Technical",
+    "question": "If your office floods today, how quickly could you access your accounting records from a new device?",
+    "options": [
+      "It would take weeks to recover the hard drive",
+      "Instantly, if utilizing cloud-based software with backups",
+      "Never, the records would be destroyed",
+      "You would have to wait for the bank to send statements"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Professional Insight: Cloud-based systems ensure Data Availability and Disaster Recovery, which are core internal controls for modern businesses.",
+    "distractorExplanations": {
+      "0": "Physical hard drive recovery is slow, expensive, and often unsuccessful.",
+      "2": "This only occurs in legacy, paper-based accounting systems.",
+      "3": "Bank statements are secondary records; they don't replace your full ledgers."
+    }
+  },
+  {
+    "id": "DIAG-012",
+    "category": "Growth Risk",
+    "icon": "🚀",
+    "skillLevel": "Strategy",
+    "question": "Why is 'flying blind' (not checking books) dangerous during a high-sales growth phase?",
+    "options": [
+      "It isn't; high sales solve all problems",
+      "You might run out of cash to pay for the labor/supplies needed for those sales",
+      "It makes the business look more professional to banks",
+      "It is only dangerous if you are losing sales"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Professional Insight: Growth drains cash. Without regular Trend Analysis, a company can grow into a liquidity crisis even while being 'profitable.'",
+    "distractorExplanations": {
+      "0": "High sales actually increase cash pressure due to higher upfront costs.",
+      "2": "Banks view lack of reporting as a major red flag for credit risk.",
+      "3": "Profitable companies fail often simply because they ran out of cash."
+    }
+  },
+  {
+    "id": "DIAG-013",
+    "category": "Debt Strategy",
+    "icon": "💳",
+    "skillLevel": "Financial",
+    "question": "You take out a $50,000 loan to expand. Is that $50,000 considered 'Income' for your business?",
+    "options": [
+      "Yes, it is cash coming into the account",
+      "No, it is a liability that you owe back",
+      "Yes, as long as you spend it on business items",
+      "No, unless you never pay it back"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Professional Insight: A loan is a Liability. It increases your cash balance but also your Debt-to-Equity ratio. It is not taxable revenue.",
+    "distractorExplanations": {
+      "0": "Incoming cash does not always equate to Earned Income.",
+      "2": "Classification is based on the source of funds, not the use of funds.",
+      "3": "Unless forgiven, debt is never income; it is an obligation to repay."
+    }
+  },
+  {
+    "id": "DIAG-014",
+    "category": "Tax Planning",
+    "icon": "🗓️",
+    "skillLevel": "Strategic",
+    "question": "Why is it risky to wait until April to organize your business receipts?",
+    "options": [
+      "The accountant will charge you a higher fee",
+      "You lose the chance to make strategic moves to lower taxes before year-end",
+      "The IRS doesn't allow receipts older than 3 months",
+      "It makes your taxes take longer to file"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Professional Insight: Tax Compliance is just filing; Tax Planning is using proactive strategies before Dec 31st to optimize your liability.",
+    "distractorExplanations": {
+      "0": "While true, the lost tax savings are usually much more expensive.",
+      "2": "Older receipts are valid, but higher risk of being lost or faded.",
+      "3": "Speed is less important than the financial accuracy and optimization."
+    }
+  },
+  {
+    "id": "DIAG-015",
+    "category": "Assurance",
+    "icon": "✅",
+    "skillLevel": "Professional",
+    "question": "A corporate client asks for your 'Financial Statements' before hiring you. What are they verifying?",
+    "options": [
+      "That you have a professional-looking logo",
+      "That your business is stable and low-risk to partner with",
+      "That you have more than 10 employees",
+      "That you use the same bank as them"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Professional Insight: Financial Statements provide Attestation. They are a professional 'report card' proving you manage your business with fiscal discipline.",
+    "distractorExplanations": {
+      "0": "Branding is about perception; financial statements are about the reality.",
+      "2": "Scale doesn't equal stability; a solo firm can be highly stable.",
+      "3": "The choice of bank is irrelevant to your overall financial health."
+    }
+  }
+]
